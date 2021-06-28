@@ -1,0 +1,44 @@
+@use '../utilities' as *;
+
+.program {
+    padding: 48px 24px;
+    background: $clr-primary-black;
+
+    &__title {
+        @include lato-text(1.5rem, 500, 24px);
+        text-align: center;
+        color: $clr-primary-white;
+    }
+
+    ul {
+        margin: 24px 0;
+        @include flex(column, center center);
+        gap: 12px;
+
+        li {
+            @include flex(row, center, justify-content);
+            gap: 12px;
+            width: 100%;
+            background: $clr-primary-black-gray;
+            padding: 12px;
+
+            img {
+                width: 40px;
+                height: 40px;
+                flex-basis: 25%;
+            }
+
+            h3 {
+                color: $clr-primary-red;
+                @include lato-text(1.2rem, 700, 24px);
+                flex-basis: 25%;
+            }
+
+            p {
+                color: $clr-primary-white;
+                @include lato-text(1rem, 500, 24px);
+                flex-basis: 50%;
+            }
+        }
+    }
+}

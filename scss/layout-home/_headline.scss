@@ -1,0 +1,47 @@
+@use '../utilities' as *;
+
+.headline::before {
+    content: '';
+    position: absolute;
+    background-image: url('../../public/headline-background.png');
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.headline {
+    padding: 48px 24px;
+    position: relative;
+    z-index: 10;
+
+    &__greet {
+        @include lato-text(1.5rem, 500, 36px);
+        color: $clr-primary-red;
+    }
+
+    &__title {
+        @include coco-text(2rem, 500, 36px);
+        color: $clr-primary-red;
+        text-transform: uppercase;
+    }
+
+    &__dsc {
+        margin: 12px 0;
+        padding: 12px;
+        border: 3px solid $clr-primary-white;
+        p {
+            @include lato-text(1rem, 500, 24px);
+            color: $clr-primary-black;
+        }
+        
+    }
+
+    &__date {
+        @include coco-text(1.15rem, 500, 24px);
+        color: $clr-primary-black;
+        margin: 12px 0;
+    }
+}

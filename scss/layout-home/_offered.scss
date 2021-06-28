@@ -1,0 +1,18 @@
+@use '../utilities/index' as *;
+
+.offered {
+    padding: 48px 24px;
+    background: $clr-primary-black-gray;
+
+    &__title {
+        @include lato-text(1.5rem, 500, 24px);
+        color: $clr-primary-white;
+        text-align: center;
+    }
+
+    &__images {
+        margin: 24px 0;
+        @include flex(column, center, center);
+        gap: 24px;
+    }
+}
