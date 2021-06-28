@@ -4,12 +4,12 @@ footer {
   padding: 24px;
   text-align: center;
 
-  img {
+  .footer__img {
     width: 50%;
     margin-bottom: 12px;
   }
 
-  p {
+  .footer__p {
     @include lato-text(1rem, 500, 24px);
 
     color: $clr-primary-black;

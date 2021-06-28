@@ -72,7 +72,7 @@ header nav .hamb {
 }
 
 .headline__greet {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 36px;
@@ -80,7 +80,7 @@ header nav .hamb {
 }
 
 .headline__title {
-  font-family: "COCOGOOSE";
+  font-family: "COCOGOOSE", sans-serif;
   font-size: 2rem;
   font-weight: 500;
   line-height: 36px;
@@ -96,7 +96,7 @@ header nav .hamb {
 }
 
 .headline__dsc p {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 24px;
@@ -104,7 +104,7 @@ header nav .hamb {
 }
 
 .headline__date {
-  font-family: "COCOGOOSE";
+  font-family: "COCOGOOSE", sans-serif;
   font-size: 1.15rem;
   font-weight: 500;
   line-height: 50px;
@@ -118,7 +118,7 @@ header nav .hamb {
 }
 
 .program__title {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 24px;
@@ -130,7 +130,7 @@ header nav .hamb {
   margin: 24px 0;
   display: flex;
   flex-direction: column;
-  align-items: center center;
+  align-items: center;
   justify-content: center;
   gap: 12px;
 }
@@ -139,7 +139,7 @@ header nav .hamb {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: justify-content;
+  justify-content: center;
   gap: 12px;
   width: 100%;
   background: #41434b;
@@ -154,7 +154,7 @@ header nav .hamb {
 
 .program ul li h3 {
   color: #ec5242;
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 24px;
@@ -163,7 +163,7 @@ header nav .hamb {
 
 .program ul li p {
   color: #fff;
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 24px;
@@ -175,7 +175,7 @@ header nav .hamb {
 }
 
 .presenter__title {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 24px;
@@ -187,7 +187,7 @@ header nav .hamb {
   margin: 24px 0;
   display: flex;
   flex-direction: column;
-  align-items: center center;
+  align-items: center;
   justify-content: center;
   gap: 12px;
   list-style: none;
@@ -197,7 +197,7 @@ header nav .hamb {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: justify-content;
+  justify-content: center;
   gap: 12px;
   width: 100%;
   padding: 12px;
@@ -212,7 +212,7 @@ header nav .hamb {
 }
 
 .presenter ul li .presenter__dsc h3 {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 24px;
@@ -220,7 +220,7 @@ header nav .hamb {
 }
 
 .presenter ul li .presenter__dsc .dsc-1 {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 24px;
@@ -230,7 +230,7 @@ header nav .hamb {
 }
 
 .presenter ul li .presenter__dsc .dsc-2 {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 24px;
@@ -244,7 +244,7 @@ header nav .hamb {
 }
 
 .offered__title {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 24px;
@@ -266,13 +266,13 @@ footer {
   text-align: center;
 }
 
-footer img {
+footer .footer__img {
   width: 50%;
   margin-bottom: 12px;
 }
 
-footer p {
-  font-family: "Lato, sans-serif";
+footer .footer__p {
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 24px;
@@ -647,7 +647,7 @@ footer p {
   }
 
   header nav ul li a {
-    font-family: "Lato, sans-serif";
+    font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 24px;

@@ -72,7 +72,7 @@ header nav .hamb {
 }
 
 .headline__greet {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 36px;
@@ -82,7 +82,7 @@ header nav .hamb {
 }
 
 .headline__title {
-  font-family: "COCOGOOSE";
+  font-family: "COCOGOOSE", sans-serif;
   font-size: 2rem;
   font-weight: 500;
   line-height: 36px;
@@ -99,7 +99,7 @@ header nav .hamb {
 }
 
 .headline__dsc p {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 24px;
@@ -112,7 +112,7 @@ header nav .hamb {
 }
 
 .courses__title {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 24px;
@@ -134,7 +134,7 @@ header nav .hamb {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: justify-content;
+  justify-content: center;
   gap: 12px;
   width: 100%;
   padding: 12px;
@@ -149,7 +149,7 @@ header nav .hamb {
 }
 
 .courses ul li .courses__dsc h3 {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 24px;
@@ -159,7 +159,7 @@ header nav .hamb {
 }
 
 .courses ul li .courses__dsc p {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 24px;
@@ -172,7 +172,7 @@ header nav .hamb {
 }
 
 .past-courses__title {
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 24px;
@@ -198,13 +198,13 @@ header nav .hamb {
   width: 100%;
 }
 
-.past-courses ul li p {
+.past-courses ul li .past-courses__p {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-family: "Lato, sans-serif";
+  font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 40px;
@@ -212,7 +212,7 @@ header nav .hamb {
   width: 100%;
 }
 
-.past-courses ul li p span {
+.past-courses ul li .past-courses__p span {
   display: block;
   font-size: 2rem;
   font-weight: bold;
@@ -224,13 +224,13 @@ footer {
   background: #41434b;
 }
 
-footer img {
+footer .footer__img {
   width: 50%;
   margin-bottom: 12px;
 }
 
-footer p {
-  font-family: "Lato, sans-serif";
+footer .footer__p {
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 24px;
@@ -493,7 +493,7 @@ footer p {
   }
 
   header nav ul li a {
-    font-family: "Lato, sans-serif";
+    font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 24px;

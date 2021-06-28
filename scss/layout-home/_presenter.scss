@@ -13,13 +13,13 @@
   ul {
     margin: 24px 0;
 
-    @include flex(column, center center);
+    @include flex(column, center, center);
 
     gap: 12px;
     list-style: none;
 
     li {
-      @include flex(column, center, justify-content);
+      @include flex(column, center, center);
 
       gap: 12px;
       width: 100%;

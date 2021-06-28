@@ -14,12 +14,12 @@
   ul {
     margin: 24px 0;
 
-    @include flex(column, center center);
+    @include flex(column, center, center);
 
     gap: 12px;
 
     li {
-      @include flex(row, center, justify-content);
+      @include flex(row, center, center);
 
       gap: 12px;
       width: 100%;

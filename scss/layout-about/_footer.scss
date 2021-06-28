@@ -5,12 +5,12 @@ footer {
   text-align: center;
   background: $clr-primary-black-gray;
 
-  img {
+  .footer__img {
     width: 50%;
     margin-bottom: 12px;
   }
 
-  p {
+  .footer__p {
     @include lato-text(1rem, 500, 24px);
 
     color: $clr-primary-white;

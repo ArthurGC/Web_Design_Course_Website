@@ -19,7 +19,7 @@
     gap: 32px;
 
     li {
-      @include flex(column, center, justify-content);
+      @include flex(column, center, center);
 
       gap: 12px;
       width: 100%;
