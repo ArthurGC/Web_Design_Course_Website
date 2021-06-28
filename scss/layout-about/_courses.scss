@@ -1,0 +1,50 @@
+@use '../utilities' as *;
+
+.courses {
+    padding: 48px 24px;
+
+    &__title {
+        @include lato-text(1.5rem, 500, 24px);
+        color: $clr-primary-black;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        @include flex(column, center, center);
+        gap: 32px;
+
+        li {
+            @include flex(column, center, justify-content);
+            gap: 12px;
+            width: 100%;
+            padding: 12px;
+            border: 1px solid rgba(219, 217, 217, 0.5);
+            border-radius: 8px;
+            box-shadow: 2px 2px 0 0 rgba(172, 172, 172, 0.2);
+
+            .courses__image {
+                i {
+                    color: $clr-primary-red;
+                    font-size: 4rem;
+                }
+            }
+
+            .courses__dsc {
+                h3 {
+                    @include lato-text(1.2rem, 700, 24px);
+                    color: $clr-primary-black;
+                    text-align: center;
+                    margin-bottom: 24px;
+                }
+
+                p {
+                    @include lato-text(1rem, 500, 24px);
+                    color: $clr-primary-black-gray;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

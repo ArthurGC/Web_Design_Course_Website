@@ -86,6 +86,60 @@ header nav .hamb {
   text-align: center;
 }
 
+.courses {
+  padding: 48px 24px;
+}
+.courses__title {
+  font-family: "Lato, sans-serif";
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 24px;
+  color: #272a31;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.courses ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.courses ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: justify-content;
+  gap: 12px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(219, 217, 217, 0.5);
+  border-radius: 8px;
+  box-shadow: 2px 2px 0 0 rgba(172, 172, 172, 0.2);
+}
+.courses ul li .courses__image i {
+  color: #ec5242;
+  font-size: 4rem;
+}
+.courses ul li .courses__dsc h3 {
+  font-family: "Lato, sans-serif";
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 24px;
+  color: #272a31;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.courses ul li .courses__dsc p {
+  font-family: "Lato, sans-serif";
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  color: #41434b;
+  text-align: center;
+}
+
 @media (max-width: 992px) {
   header nav ul {
     position: fixed;
