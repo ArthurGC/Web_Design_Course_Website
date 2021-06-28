@@ -12,7 +12,7 @@
     line-height: $height;
 }
 
-@mixin flex($direction, $align, $justify) {
+@mixin flex($direction: row, $align: center, $justify: center) {
     display: flex;
     flex-direction: $direction;
     align-items: $align;
