@@ -1,0 +1,15 @@
+@use '../utilities/index' as *;
+
+@media (max-width: 992px) {
+    header {
+        nav {
+            ul {
+                position: fixed;
+                top: 0;
+                left: -100%;
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+}
