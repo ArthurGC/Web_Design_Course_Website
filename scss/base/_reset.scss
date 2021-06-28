@@ -7,12 +7,16 @@
 }
 
 body {
-    width: 100%;
+  width: 100%;
 }
 
 hr {
   margin-top: 12px;
-  border: 1px solid #EC5242;
+  border: 1px solid #ec5242;
   width: 50%;
   margin-inline: auto;
+}
+
+.link {
+  text-decoration: none;
 }

@@ -1,20 +1,22 @@
+@use '/scss/base/typography' as *;
+
 @mixin coco-text($size, $weight, $height) {
-    font-family: 'COCOGOOSE';
-    font-size: $size;
-    font-weight: $weight;
-    line-height: $height;
+  font-family: 'COCOGOOSE';
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
 }
 
 @mixin lato-text($size, $weight, $height) {
-    font-family: 'Lato, sans-serif';
-    font-size: $size;
-    font-weight: $weight;
-    line-height: $height;
+  font-family: 'Lato, sans-serif';
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
 }
 
 @mixin flex($direction: row, $align: center, $justify: center) {
-    display: flex;
-    flex-direction: $direction;
-    align-items: $align;
-    justify-content: $justify;
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
 }

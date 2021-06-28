@@ -1,16 +1,17 @@
 @use '../utilities/index' as *;
 
 footer {
-    padding: 24px;
-    text-align: center;
+  padding: 24px;
+  text-align: center;
 
-    img {
-        width: 50%;
-        margin-bottom: 12px;
-    }
+  img {
+    width: 50%;
+    margin-bottom: 12px;
+  }
 
-    p {
-        @include lato-text(1rem, 500, 24px);
-        color: $clr-primary-black;
-    }
+  p {
+    @include lato-text(1rem, 500, 24px);
+
+    color: $clr-primary-black;
+  }
 }

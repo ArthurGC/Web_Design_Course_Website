@@ -1,45 +1,50 @@
 @use '../utilities' as *;
 
 .past-courses {
-    padding: 48px 24px;
+  padding: 48px 24px;
 
-    &__title {
-        @include lato-text(1.5rem, 700, 24px);
-        color: $clr-primary-black;
-        text-align: center;
-    }
+  &__title {
+    @include lato-text(1.5rem, 700, 24px);
 
-    ul {
-        margin-top: 50px;
-        list-style: none;
-        @include flex(column, center, center);
-        gap: 24px;
+    color: $clr-primary-black;
+    text-align: center;
+  }
 
-        li {
-            position: relative;
+  ul {
+    margin-top: 50px;
+    list-style: none;
 
-            a {
-                img {
-                    width: 100%;
-                }
-            }
+    @include flex(column, center, center);
 
-            p {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%,-50%);
-                color: $clr-primary-white;
-                @include lato-text(1.5rem, 500, 40px);
-                text-align: center;
-                width: 100%;
+    gap: 24px;
 
-                span {
-                    display: block;
-                    font-size: 2rem;
-                    font-weight: bold;
-                }
-            }
+    li {
+      position: relative;
+
+      a {
+        img {
+          width: 100%;
         }
+      }
+
+      p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $clr-primary-white;
+
+        @include lato-text(1.5rem, 500, 40px);
+
+        text-align: center;
+        width: 100%;
+
+        span {
+          display: block;
+          font-size: 2rem;
+          font-weight: bold;
+        }
+      }
     }
+  }
 }
