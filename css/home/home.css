@@ -35,9 +35,6 @@ header nav a img {
   height: auto;
   display: none;
 }
-header nav ul {
-  list-style: none;
-}
 header nav .hamb {
   font-size: 2rem;
   cursor: pointer;
@@ -248,13 +245,289 @@ footer p {
   color: #272a31;
 }
 
+@media (min-width: 480px) {
+  .headline {
+    padding: 10rem 24px;
+  }
+  .headline__greet {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+  }
+  .headline__title {
+    font-size: 2.5rem;
+    line-height: 56px;
+  }
+  .headline__dsc p {
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+  .headline__date {
+    font-size: 2rem;
+    margin-top: 48px;
+  }
+
+  .program {
+    padding: 5rem 24px;
+  }
+  .program__title {
+    font-size: 2rem;
+  }
+  .program ul li img {
+    width: 50px;
+    height: 50px;
+  }
+  .program ul li h3 {
+    font-size: 1.5rem;
+  }
+  .program ul li p {
+    font-size: 1.2rem;
+  }
+
+  .presenter {
+    padding: 5rem 24px;
+  }
+  .presenter__title {
+    font-size: 2rem;
+  }
+  .presenter ul {
+    margin: 48px 0;
+    gap: 24px;
+  }
+  .presenter ul li {
+    padding: 24px;
+  }
+  .presenter ul li .presenter__image img {
+    width: 150px;
+    height: 150px;
+  }
+  .presenter ul li .presenter__dsc h3 {
+    font-size: 1.5rem;
+  }
+  .presenter ul li .presenter__dsc .dsc-1 {
+    font-size: 1.2rem;
+  }
+  .presenter ul li .presenter__dsc .dsc-2 {
+    font-size: 1.2rem;
+  }
+
+  .offered {
+    padding: 5rem 24px;
+  }
+  .offered__title {
+    font-size: 2rem;
+  }
+  .offered__images {
+    margin-top: 48px;
+    gap: 36px;
+  }
+
+  footer {
+    padding: 2rem 24px;
+  }
+  footer p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 600px) {
+  header {
+    padding: 24px 48px;
+  }
+  header nav .hamb {
+    font-size: 3rem;
+  }
+
+  .headline {
+    padding: 10rem 48px;
+  }
+  .headline__greet {
+    margin: 1rem 0;
+    font-size: 2rem;
+  }
+  .headline__title {
+    font-size: 3rem;
+    line-height: 72px;
+  }
+  .headline__dsc p {
+    font-size: 1.8rem;
+    line-height: 42px;
+  }
+  .headline__date {
+    font-size: 2.5rem;
+    margin-top: 48px;
+  }
+
+  .program {
+    padding: 6rem 48px;
+  }
+  .program__title {
+    font-size: 2.5rem;
+  }
+  .program ul {
+    gap: 32px;
+  }
+  .program ul li img {
+    width: 60px;
+    height: 60px;
+  }
+  .program ul li h3 {
+    font-size: 1.8rem;
+  }
+  .program ul li p {
+    font-size: 1.5rem;
+  }
+
+  .presenter {
+    padding: 6rem 48px;
+  }
+  .presenter__title {
+    font-size: 2.5rem;
+  }
+  .presenter ul {
+    margin: 56px 0;
+    gap: 32px;
+  }
+  .presenter ul li {
+    padding: 32px;
+  }
+  .presenter ul li .presenter__image img {
+    width: 180px;
+    height: 180px;
+  }
+  .presenter ul li .presenter__dsc h3 {
+    font-size: 2rem;
+  }
+  .presenter ul li .presenter__dsc .dsc-1 {
+    font-size: 1.5rem;
+    margin: 12px 0;
+    line-height: 32px;
+  }
+  .presenter ul li .presenter__dsc .dsc-2 {
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+
+  .offered {
+    padding: 6rem 48px;
+  }
+  .offered__title {
+    font-size: 2.5rem;
+  }
+  .offered__images {
+    margin-top: 48px;
+    gap: 52px;
+  }
+  .offered__images img {
+    width: 40%;
+  }
+
+  footer {
+    padding: 2rem 48px;
+  }
+  footer p {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    padding: 24px 72px;
+  }
+
+  .headline {
+    padding: 10rem 72px;
+  }
+  .headline__greet {
+    font-size: 2.5rem;
+  }
+  .headline__title {
+    font-size: 3.5rem;
+    line-height: 80px;
+  }
+  .headline__dsc p {
+    font-size: 2rem;
+    line-height: 48px;
+  }
+  .headline__date {
+    font-size: 2.8rem;
+    margin-top: 56px;
+  }
+
+  .program {
+    padding: 8rem 72px;
+  }
+  .program__title {
+    font-size: 3rem;
+  }
+  .program ul {
+    margin-top: 64px;
+    gap: 40px;
+  }
+  .program ul li img {
+    width: 80px;
+    height: 80px;
+  }
+  .program ul li h3 {
+    font-size: 2rem;
+  }
+  .program ul li p {
+    font-size: 1.8rem;
+  }
+
+  .presenter {
+    padding: 8rem 72px;
+  }
+  .presenter__title {
+    font-size: 3rem;
+  }
+  .presenter ul {
+    margin: 64px 0;
+    gap: 32px;
+  }
+  .presenter ul li {
+    padding: 40px;
+  }
+  .presenter ul li .presenter__image img {
+    width: 200px;
+    height: 200px;
+  }
+  .presenter ul li .presenter__dsc h3 {
+    font-size: 2.2rem;
+  }
+  .presenter ul li .presenter__dsc .dsc-1 {
+    font-size: 1.8rem;
+    margin: 24px 0;
+    line-height: 40px;
+  }
+  .presenter ul li .presenter__dsc .dsc-2 {
+    font-size: 1.8rem;
+    line-height: 40px;
+  }
+
+  .offered {
+    padding: 8rem 72px;
+  }
+  .offered__title {
+    font-size: 3rem;
+  }
+  .offered__images {
+    margin-top: 56px;
+  }
+
+  footer {
+    padding: 4rem 72px;
+  }
+  footer p {
+    font-size: 2rem;
+  }
+}
 @media (max-width: 992px) {
   header nav ul {
+    list-style: none;
     position: fixed;
     top: 0;
     left: -100%;
     opacity: 0;
     visibility: hidden;
+    width: 100%;
   }
 }
 
