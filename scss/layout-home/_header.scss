@@ -1,0 +1,22 @@
+@use '../utilities/index' as *;
+header { 
+    background: $clr-primary-white;
+    position: relative;
+    padding: 12px 24px;
+    nav {
+        a img {
+            width: 100px;
+            height: auto;
+            display: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .hamb {
+            font-size: 2rem;
+            cursor: pointer;
+        }
+    }
+}

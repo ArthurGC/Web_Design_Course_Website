@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("../../public/fonts/Cocogoose_trial.eot") format("eot"), url("../../public/fonts/Cocogoose_trial.woff") format("woff"), url("../../public/fonts/Cocogoose_trial.ttf") format("truetype"), url("../../public/fonts/Cocogoose_trial.svg#COCOGOOSE") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  background: #fff;
+  position: relative;
+  padding: 12px 24px;
+}
+header nav a img {
+  width: 100px;
+  height: auto;
+  display: none;
+}
+header nav ul {
+  list-style: none;
+}
+header nav .hamb {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  header nav ul {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */
