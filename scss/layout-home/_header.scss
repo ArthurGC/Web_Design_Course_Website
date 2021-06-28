@@ -72,7 +72,7 @@ header {
     background: $clr-primary-black;
 
     &__title {
-        @include coco-text(1.5rem, 500, 24px);
+        @include lato-text(1.5rem, 500, 24px);
         text-align: center;
         color: $clr-primary-white;
     }
@@ -105,6 +105,62 @@ header {
                 color: $clr-primary-white;
                 @include lato-text(1rem, 500, 24px);
                 flex-basis: 50%;
+            }
+        }
+    }
+}
+
+.presenter {
+    padding: 48px 24px;
+
+    &__title {
+        @include lato-text(1.5rem, 500, 24px);
+        text-align: center;
+        color: $clr-primary-black;
+    }
+
+    ul {
+        margin: 24px 0;
+        @include flex(column, center center);
+        gap: 12px;
+        list-style: none;
+
+        li {
+            @include flex(column, center, justify-content);
+            gap: 12px;
+            width: 100%;
+            padding: 12px;
+            border: 1px solid rgba(219, 217, 217, 0.5);
+            border-radius: 8px;
+            box-shadow: 2px 2px 0 0 rgba(172, 172, 172, 0.2);
+
+            .presenter__image {
+                
+                img {
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+
+            .presenter__dsc {
+
+                h3 {
+                    @include lato-text(1.2rem, 700, 24px);
+                    color: $clr-primary-black;
+                }
+
+                .dsc-1 {
+                    @include lato-text(1rem, 500, 24px);
+                    color: $clr-primary-red;
+                    margin: 5px 0;
+                    font-style: italic;
+                }
+
+                .dsc-2 {
+                    @include lato-text(1rem, 500, 24px);
+                    color: $clr-primary-black;
+                    margin: 12px 0;
+                }
             }
         }
     }
