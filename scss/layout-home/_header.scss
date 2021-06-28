@@ -39,7 +39,7 @@ header {
     z-index: 10;
 
     &__greet {
-        @include lato-text(1.5rem, 500, 24px);
+        @include lato-text(1.5rem, 500, 36px);
         color: $clr-primary-red;
     }
 
