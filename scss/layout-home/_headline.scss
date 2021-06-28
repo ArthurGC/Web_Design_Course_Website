@@ -3,7 +3,7 @@
 .headline::before {
     content: '';
     position: absolute;
-    background-image: url('../../public/headline-background.png');
+    background-image: url('../../public/headline-background-v2.svg');
     top: 0;
     left: 0;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
     z-index: -1;
 }
 .headline {
-    padding: 48px 24px;
+    padding: 72px 24px;
     position: relative;
     z-index: 10;
 
@@ -32,6 +32,7 @@
         margin: 12px 0;
         padding: 12px;
         border: 3px solid $clr-primary-white;
+        background: #f9f9f9;
         p {
             @include lato-text(1rem, 500, 24px);
             color: $clr-primary-black;

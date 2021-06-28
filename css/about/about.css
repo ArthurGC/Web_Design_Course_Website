@@ -11,6 +11,13 @@ body {
   width: 100%;
 }
 
+hr {
+  margin-top: 12px;
+  border: 1px solid #EC5242;
+  width: 50%;
+  margin-inline: auto;
+}
+
 @font-face {
   font-family: "COCOGOOSE";
   src: url("../../public/fonts/Cocogoose_trial.eot") format("eot"), url("../../public/fonts/Cocogoose_trial.woff") format("woff"), url("../../public/fonts/Cocogoose_trial.ttf") format("truetype"), url("../../public/fonts/Cocogoose_trial.svg#COCOGOOSE") format("svg");
@@ -21,6 +28,7 @@ header {
   background: #fff;
   position: relative;
   padding: 12px 24px;
+  box-shadow: 0 1px 10px 3px #a7a5a5;
 }
 header nav a img {
   width: 100px;
@@ -38,7 +46,7 @@ header nav .hamb {
 .headline::before {
   content: "";
   position: absolute;
-  background-image: url("../../public/headline-background.png");
+  background-image: url("../../public/headline-background-v2.svg");
   top: 0;
   left: 0;
   background-repeat: no-repeat;
@@ -95,10 +103,10 @@ header nav .hamb {
   font-weight: 700;
   line-height: 24px;
   color: #272a31;
-  margin-bottom: 50px;
   text-align: center;
 }
 .courses ul {
+  margin-top: 50px;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -150,9 +158,9 @@ header nav .hamb {
   line-height: 24px;
   color: #272a31;
   text-align: center;
-  margin-bottom: 50px;
 }
 .past-courses ul {
+  margin-top: 50px;
   list-style: none;
   display: flex;
   flex-direction: column;

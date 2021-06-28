@@ -6,11 +6,11 @@
     &__title {
         @include lato-text(1.5rem, 700, 24px);
         color: $clr-primary-black;
-        margin-bottom: 50px;
         text-align: center;
     }
 
     ul {
+        margin-top: 50px;
         list-style: none;
         @include flex(column, center, center);
         gap: 32px;

@@ -7,10 +7,10 @@
         @include lato-text(1.5rem, 700, 24px);
         color: $clr-primary-black;
         text-align: center;
-        margin-bottom: 50px;
     }
 
     ul {
+        margin-top: 50px;
         list-style: none;
         @include flex(column, center, center);
         gap: 24px;

@@ -11,6 +11,13 @@ body {
   width: 100%;
 }
 
+hr {
+  margin-top: 12px;
+  border: 1px solid #EC5242;
+  width: 50%;
+  margin-inline: auto;
+}
+
 @font-face {
   font-family: "COCOGOOSE";
   src: url("../../public/fonts/Cocogoose_trial.eot") format("eot"), url("../../public/fonts/Cocogoose_trial.woff") format("woff"), url("../../public/fonts/Cocogoose_trial.ttf") format("truetype"), url("../../public/fonts/Cocogoose_trial.svg#COCOGOOSE") format("svg");
@@ -21,6 +28,7 @@ header {
   background: #fff;
   position: relative;
   padding: 12px 24px;
+  box-shadow: 0 1px 10px 3px #a7a5a5;
 }
 header nav a img {
   width: 100px;
@@ -38,7 +46,7 @@ header nav .hamb {
 .headline::before {
   content: "";
   position: absolute;
-  background-image: url("../../public/headline-background.png");
+  background-image: url("../../public/headline-background-v2.svg");
   top: 0;
   left: 0;
   background-repeat: no-repeat;
@@ -49,7 +57,7 @@ header nav .hamb {
 }
 
 .headline {
-  padding: 48px 24px;
+  padding: 72px 24px;
   position: relative;
   z-index: 10;
 }
@@ -72,6 +80,7 @@ header nav .hamb {
   margin: 12px 0;
   padding: 12px;
   border: 3px solid #fff;
+  background: #f9f9f9;
 }
 .headline__dsc p {
   font-family: "Lato, sans-serif";
@@ -90,7 +99,7 @@ header nav .hamb {
 }
 
 .program {
-  padding: 48px 24px;
+  padding: 54px 24px;
   background: #272a31;
 }
 .program__title {
@@ -203,7 +212,7 @@ header nav .hamb {
 }
 
 .offered {
-  padding: 48px 24px;
+  padding: 56px 24px;
   background: #41434b;
 }
 .offered__title {
