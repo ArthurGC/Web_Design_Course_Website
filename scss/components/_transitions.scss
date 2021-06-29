@@ -1,0 +1,38 @@
+@use '../utilities/index' as *;
+
+header {
+  nav {
+    ul {
+      li {
+        a:hover {
+          color: $clr-primary-red;
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+
+.about {
+  color: $clr-primary-red;
+
+  &:hover {
+    color: $clr-primary-black-gray;
+  }
+}
+
+.program {
+  ul {
+    li:hover {
+      border: 4px solid $clr-primary-white;
+    }
+  }
+}
+
+.past-courses {
+  ul {
+    li:hover {
+      transform: scale(1.1);
+    }
+  }
+}

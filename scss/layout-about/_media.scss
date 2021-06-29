@@ -293,9 +293,10 @@
 
         li {
           a {
-            @include lato-text(1.5rem, 500, 24px);
+            @include lato-text(1.2rem, 500, 24px);
 
             color: $clr-primary-black-gray;
+            transition: color 0.8s, font-size 0.8s;
           }
         }
       }

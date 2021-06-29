@@ -38,7 +38,7 @@ header {
 }
 
 header nav a img {
-  width: 150px;
+  width: 120px;
   height: auto;
   display: none;
 }
@@ -195,6 +195,7 @@ header nav .hamb {
 
 .past-courses ul li {
   position: relative;
+  transition: transform 0.8s;
 }
 
 .past-courses ul li a img {
@@ -504,10 +505,11 @@ footer .footer__p {
 
   header nav ul li a {
     font-family: "Lato", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 24px;
     color: #41434b;
+    transition: color 0.8s, font-size 0.8s;
   }
 
   header nav .hamb {
@@ -588,4 +590,25 @@ footer .footer__p {
   .past-courses ul li .past-courses__p span {
     font-size: 3rem;
   }
+}
+
+header nav ul li a:hover {
+  color: #ec5242;
+  font-size: 1.5rem;
+}
+
+.about {
+  color: #ec5242;
+}
+
+.about:hover {
+  color: #41434b;
+}
+
+.program ul li:hover {
+  border: 4px solid #fff;
+}
+
+.past-courses ul li:hover {
+  transform: scale(1.2);
 }
