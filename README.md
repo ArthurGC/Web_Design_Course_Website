@@ -50,9 +50,10 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/ArthurGC/capstone-project-module-1/issues).
 
-## Acknowledgments
+## :grey_exclamation: Acknowledgments
 
-- Thanks to Microverse
+- [Microverse](https://www.microverse.org/)
+- [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 📝 License
 
