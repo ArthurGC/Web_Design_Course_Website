@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
-
 *,
 ::before,
 ::after {
@@ -13,7 +12,7 @@ body {
 }
 
 hr {
-  margin-top: 12px;
+  margin-top: 24px;
   border: 1px solid #ec5242;
   width: 50%;
   margin-inline: auto;
@@ -29,24 +28,20 @@ hr {
   font-weight: normal;
   font-style: normal;
 }
-
 header {
   background: #fff;
   position: relative;
   padding: 24px;
   box-shadow: 0 1px 10px 3px #a7a5a5;
 }
-
 header nav a img {
   width: 150px;
   height: auto;
   display: none;
 }
-
 header nav ul {
   list-style: none;
 }
-
 header nav .hamb {
   font-size: 2rem;
   cursor: pointer;
@@ -55,7 +50,7 @@ header nav .hamb {
 .headline::before {
   content: "";
   position: absolute;
-  background-image: url("../../public/headline-background-v2.svg");
+  background-image: url("https://raw.githubusercontent.com/ArthurGC/capstone-project-module-1/8fdb047476d604a949a3e54b9d91a3b2b56cbf77/public/headline-background-v2.svg");
   top: 0;
   left: 0;
   background-repeat: no-repeat;
@@ -70,7 +65,6 @@ header nav .hamb {
   position: relative;
   z-index: 10;
 }
-
 .headline__greet {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -78,7 +72,6 @@ header nav .hamb {
   line-height: 36px;
   color: #ec5242;
 }
-
 .headline__title {
   font-family: "COCOGOOSE", sans-serif;
   font-size: 2rem;
@@ -87,14 +80,12 @@ header nav .hamb {
   color: #ec5242;
   text-transform: uppercase;
 }
-
 .headline__dsc {
   margin: 12px 0;
   padding: 12px;
   border: 3px solid #fff;
   background: #f9f9f9;
 }
-
 .headline__dsc p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
@@ -102,7 +93,6 @@ header nav .hamb {
   line-height: 24px;
   color: #272a31;
 }
-
 .headline__date {
   font-family: "COCOGOOSE", sans-serif;
   font-size: 1.15rem;
@@ -116,7 +106,6 @@ header nav .hamb {
   padding: 54px 24px;
   background: #272a31;
 }
-
 .program__title {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -125,7 +114,6 @@ header nav .hamb {
   text-align: center;
   color: #fff;
 }
-
 .program ul {
   margin: 24px 0;
   display: flex;
@@ -134,7 +122,6 @@ header nav .hamb {
   justify-content: center;
   gap: 12px;
 }
-
 .program ul li {
   display: flex;
   flex-direction: row;
@@ -145,13 +132,11 @@ header nav .hamb {
   background: #41434b;
   padding: 12px;
 }
-
 .program ul li img {
   width: 40px;
   height: 40px;
   flex-basis: 25%;
 }
-
 .program ul li h3 {
   color: #ec5242;
   font-family: "Lato", sans-serif;
@@ -160,7 +145,6 @@ header nav .hamb {
   line-height: 24px;
   flex-basis: 25%;
 }
-
 .program ul li p {
   color: #fff;
   font-family: "Lato", sans-serif;
@@ -173,7 +157,6 @@ header nav .hamb {
 .presenter {
   padding: 48px 24px;
 }
-
 .presenter__title {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -182,7 +165,6 @@ header nav .hamb {
   text-align: center;
   color: #272a31;
 }
-
 .presenter ul {
   margin: 24px 0;
   display: flex;
@@ -192,57 +174,47 @@ header nav .hamb {
   gap: 12px;
   list-style: none;
 }
-
 .presenter ul li {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
-  gap: 12px;
+  gap: 24px;
   width: 100%;
   padding: 12px;
-  border: 1px solid rgba(219, 217, 217, 0.5);
-  border-radius: 8px;
-  box-shadow: 2px 2px 0 0 rgba(172, 172, 172, 0.2);
 }
-
 .presenter ul li .presenter__image img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
-
 .presenter ul li .presenter__dsc h3 {
   font-family: "Lato", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 24px;
   color: #272a31;
 }
-
 .presenter ul li .presenter__dsc .dsc-1 {
   font-family: "Lato", sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 500;
   line-height: 24px;
   color: #ec5242;
   margin: 5px 0;
   font-style: italic;
 }
-
 .presenter ul li .presenter__dsc .dsc-2 {
   font-family: "Lato", sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 500;
   line-height: 24px;
   color: #272a31;
-  margin: 12px 0;
 }
 
 .offered {
   padding: 56px 24px;
   background: #41434b;
 }
-
 .offered__title {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -251,7 +223,6 @@ header nav .hamb {
   color: #fff;
   text-align: center;
 }
-
 .offered__images {
   margin: 24px 0;
   display: flex;
@@ -265,12 +236,10 @@ footer {
   padding: 24px;
   text-align: center;
 }
-
 footer .footer__img {
   width: 50%;
   margin-bottom: 12px;
 }
-
 footer .footer__p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
@@ -283,22 +252,18 @@ footer .footer__p {
   .headline {
     padding: 10rem 24px;
   }
-
   .headline__greet {
     margin: 1rem 0;
     font-size: 1.8rem;
   }
-
   .headline__title {
     font-size: 2.5rem;
     line-height: 56px;
   }
-
   .headline__dsc p {
     font-size: 1.5rem;
     line-height: 32px;
   }
-
   .headline__date {
     font-size: 2rem;
     margin-top: 48px;
@@ -307,20 +272,16 @@ footer .footer__p {
   .program {
     padding: 5rem 24px;
   }
-
   .program__title {
     font-size: 2rem;
   }
-
   .program ul li img {
     width: 50px;
     height: 50px;
   }
-
   .program ul li h3 {
     font-size: 1.5rem;
   }
-
   .program ul li p {
     font-size: 1.2rem;
   }
@@ -328,45 +289,27 @@ footer .footer__p {
   .presenter {
     padding: 5rem 24px;
   }
-
   .presenter__title {
     font-size: 2rem;
   }
-
   .presenter ul {
     margin: 48px 0;
     gap: 24px;
   }
-
   .presenter ul li {
     padding: 24px;
   }
-
   .presenter ul li .presenter__image img {
-    width: 150px;
-    height: 150px;
-  }
-
-  .presenter ul li .presenter__dsc h3 {
-    font-size: 1.5rem;
-  }
-
-  .presenter ul li .presenter__dsc .dsc-1 {
-    font-size: 1.2rem;
-  }
-
-  .presenter ul li .presenter__dsc .dsc-2 {
-    font-size: 1.2rem;
+    width: 120px;
+    height: 120px;
   }
 
   .offered {
     padding: 5rem 24px;
   }
-
   .offered__title {
     font-size: 2rem;
   }
-
   .offered__images {
     margin-top: 48px;
     gap: 36px;
@@ -375,17 +318,14 @@ footer .footer__p {
   footer {
     padding: 2rem 24px;
   }
-
   footer .footer__p {
     font-size: 1.5rem;
   }
 }
-
 @media (min-width: 600px) {
   header {
     padding: 24px 48px;
   }
-
   header nav .hamb {
     font-size: 3rem;
   }
@@ -393,22 +333,18 @@ footer .footer__p {
   .headline {
     padding: 10rem 48px;
   }
-
   .headline__greet {
     margin: 1rem 0;
     font-size: 2rem;
   }
-
   .headline__title {
     font-size: 3rem;
     line-height: 72px;
   }
-
   .headline__dsc p {
     font-size: 1.8rem;
     line-height: 42px;
   }
-
   .headline__date {
     font-size: 2.5rem;
     margin-top: 48px;
@@ -417,78 +353,63 @@ footer .footer__p {
   .program {
     padding: 6rem 48px;
   }
-
   .program__title {
     font-size: 2.5rem;
   }
-
   .program ul {
     gap: 32px;
   }
-
   .program ul li img {
     width: 60px;
     height: 60px;
   }
-
   .program ul li h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
-
   .program ul li p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .presenter {
     padding: 6rem 48px;
   }
-
   .presenter__title {
     font-size: 2.5rem;
   }
-
   .presenter ul {
     margin: 56px 0;
     gap: 32px;
   }
-
   .presenter ul li {
     padding: 32px;
   }
-
   .presenter ul li .presenter__image img {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
   }
-
   .presenter ul li .presenter__dsc h3 {
-    font-size: 2rem;
-  }
-
-  .presenter ul li .presenter__dsc .dsc-1 {
     font-size: 1.5rem;
+  }
+  .presenter ul li .presenter__dsc .dsc-1 {
+    font-size: 1.2rem;
     margin: 12px 0;
     line-height: 32px;
   }
-
   .presenter ul li .presenter__dsc .dsc-2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 32px;
   }
 
   .offered {
     padding: 6rem 48px;
   }
-
   .offered__title {
     font-size: 2.5rem;
   }
-
   .offered__images {
     margin-top: 48px;
     gap: 52px;
   }
-
   .offered__images .offered__img {
     width: 40%;
   }
@@ -496,12 +417,11 @@ footer .footer__p {
   footer {
     padding: 2rem 48px;
   }
-
   footer .footer__p {
     font-size: 1.8rem;
+    line-height: 40px;
   }
 }
-
 @media (min-width: 768px) {
   header {
     padding: 24px 72px;
@@ -510,110 +430,96 @@ footer .footer__p {
   .headline {
     padding: 10rem 72px;
   }
-
-  .headline__greet {
-    font-size: 2.5rem;
-  }
-
   .headline__title {
-    font-size: 3.5rem;
     line-height: 80px;
   }
-
   .headline__dsc p {
-    font-size: 2rem;
     line-height: 48px;
   }
-
   .headline__date {
-    font-size: 2.8rem;
     margin-top: 56px;
   }
 
   .program {
     padding: 8rem 72px;
   }
-
-  .program__title {
-    font-size: 3rem;
-  }
-
   .program ul {
     margin-top: 64px;
-    gap: 40px;
+    gap: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
-
+  .program ul li {
+    flex-direction: column;
+    width: 244px;
+    height: 300px;
+    padding: 24px;
+  }
   .program ul li img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+    flex-basis: 100%;
   }
-
-  .program ul li h3 {
-    font-size: 2rem;
-  }
-
   .program ul li p {
-    font-size: 1.8rem;
+    text-align: center;
+    line-height: 32px;
+    flex-basis: 100%;
   }
 
   .presenter {
     padding: 8rem 72px;
   }
-
-  .presenter__title {
-    font-size: 3rem;
-  }
-
   .presenter ul {
     margin: 64px 0;
-    gap: 32px;
   }
-
   .presenter ul li {
-    padding: 40px;
+    padding: 32px;
   }
-
   .presenter ul li .presenter__image img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
   }
-
-  .presenter ul li .presenter__dsc h3 {
-    font-size: 2.2rem;
+  .presenter ul li .presenter__dsc {
+    max-width: 450px;
   }
-
   .presenter ul li .presenter__dsc .dsc-1 {
-    font-size: 1.8rem;
     margin: 24px 0;
     line-height: 40px;
   }
-
   .presenter ul li .presenter__dsc .dsc-2 {
-    font-size: 1.8rem;
     line-height: 40px;
   }
 
   .offered {
-    padding: 8rem 72px;
+    padding: 7rem 72px;
   }
-
-  .offered__title {
-    font-size: 3rem;
-  }
-
   .offered__images {
     margin-top: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .offered__images .offered__img {
+    width: 200px;
   }
 
   footer {
-    padding: 4rem 72px;
+    padding: 3rem 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
   }
-
+  footer .footer__img {
+    width: 150px;
+  }
   footer .footer__p {
-    font-size: 2rem;
+    line-height: 32px;
   }
 }
-
 @media (max-width: 992px) {
   header nav ul {
     list-style: none;
@@ -625,7 +531,6 @@ footer .footer__p {
     width: 100%;
   }
 }
-
 @media (min-width: 992px) {
   header nav {
     display: flex;
@@ -633,11 +538,9 @@ footer .footer__p {
     align-items: center;
     justify-content: space-between;
   }
-
   header nav a img {
     display: block;
   }
-
   header nav ul {
     display: flex;
     flex-direction: row;
@@ -645,7 +548,6 @@ footer .footer__p {
     justify-content: flex-end;
     gap: 48px;
   }
-
   header nav ul li a {
     font-family: "Lato", sans-serif;
     font-size: 1.5rem;
@@ -653,8 +555,49 @@ footer .footer__p {
     line-height: 24px;
     color: #41434b;
   }
-
   header nav .hamb {
     display: none;
   }
 }
+@media (min-width: 1024px) {
+  .headline__dsc {
+    width: 80%;
+  }
+
+  footer {
+    gap: 72px;
+  }
+  footer .footer__img {
+    text-align: right;
+  }
+}
+@media (min-width: 1400px) {
+  header {
+    padding: 24px 120px;
+  }
+
+  .headline__title {
+    width: 70%;
+  }
+
+  .presenter ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .presenter ul li {
+    max-width: 600px;
+  }
+
+  hr {
+    width: 30%;
+  }
+
+  .headline {
+    padding: 12rem 120px;
+  }
+  .headline__dsc {
+    width: 60%;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

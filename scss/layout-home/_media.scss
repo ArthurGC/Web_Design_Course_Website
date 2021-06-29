@@ -68,22 +68,8 @@
 
         .presenter__image {
           img {
-            width: 150px;
-            height: 150px;
-          }
-        }
-
-        .presenter__dsc {
-          h3 {
-            font-size: 1.5rem;
-          }
-
-          .dsc-1 {
-            font-size: 1.2rem;
-          }
-
-          .dsc-2 {
-            font-size: 1.2rem;
+            width: 120px;
+            height: 120px;
           }
         }
       }
@@ -166,11 +152,11 @@
         }
 
         h3 {
-          font-size: 1.8rem;
+          font-size: 1.6rem;
         }
 
         p {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
         }
       }
     }
@@ -192,24 +178,24 @@
 
         .presenter__image {
           img {
-            width: 180px;
-            height: 180px;
+            width: 150px;
+            height: 150px;
           }
         }
 
         .presenter__dsc {
           h3 {
-            font-size: 2rem;
+            font-size: 1.5rem;
           }
 
           .dsc-1 {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             margin: 12px 0;
             line-height: 32px;
           }
 
           .dsc-2 {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             line-height: 32px;
           }
         }
@@ -239,6 +225,7 @@
 
     .footer__p {
       font-size: 1.8rem;
+      line-height: 40px;
     }
   }
 }
@@ -251,24 +238,17 @@
   .headline {
     padding: 10rem 72px;
 
-    &__greet {
-      font-size: 2.5rem;
-    }
-
     &__title {
-      font-size: 3.5rem;
       line-height: 80px;
     }
 
     &__dsc {
       p {
-        font-size: 2rem;
         line-height: 48px;
       }
     }
 
     &__date {
-      font-size: 2.8rem;
       margin-top: 56px;
     }
   }
@@ -276,26 +256,28 @@
   .program {
     padding: 8rem 72px;
 
-    &__title {
-      font-size: 3rem;
-    }
 
     ul {
       margin-top: 64px;
-      gap: 40px;
+      gap: 5px;
+      flex-direction: row;
+      flex-wrap: wrap;
 
       li {
+        flex-direction: column;
+        width: 244px;
+        height: 300px;
+        padding: 24px;
         img {
-          width: 80px;
-          height: 80px;
-        }
-
-        h3 {
-          font-size: 2rem;
+          width: 70px;
+          height: 70px;
+          flex-basis: 100%;
         }
 
         p {
-          font-size: 1.8rem;
+          text-align: center;
+          line-height: 32px;
+          flex-basis: 100%;
         }
       }
     }
@@ -304,37 +286,28 @@
   .presenter {
     padding: 8rem 72px;
 
-    &__title {
-      font-size: 3rem;
-    }
 
     ul {
       margin: 64px 0;
-      gap: 32px;
 
       li {
-        padding: 40px;
+        padding: 32px;
 
         .presenter__image {
           img {
-            width: 200px;
-            height: 200px;
+            width: 180px;
+            height: 180px;
           }
         }
 
         .presenter__dsc {
-          h3 {
-            font-size: 2.2rem;
-          }
-
+          max-width: 450px;
           .dsc-1 {
-            font-size: 1.8rem;
             margin: 24px 0;
             line-height: 40px;
           }
 
           .dsc-2 {
-            font-size: 1.8rem;
             line-height: 40px;
           }
         }
@@ -343,22 +316,30 @@
   }
 
   .offered {
-    padding: 8rem 72px;
-
-    &__title {
-      font-size: 3rem;
-    }
+    padding: 7rem 72px;
 
     &__images {
       margin-top: 56px;
+      @include flex(row,center, center);
+      flex-wrap: wrap;
+
+      .offered__img {
+        width: 200px;
+      }
     }
   }
 
   footer {
-    padding: 4rem 72px;
+    padding: 3rem 72px;
+    @include flex(row,center,center);
+    gap: 48px;
+
+    .footer__img {
+      width: 150px;
+    }
 
     .footer__p {
-      font-size: 2rem;
+      line-height: 32px;
     }
   }
 }
@@ -405,6 +386,53 @@
       .hamb {
         display: none;
       }
+    }
+  }
+}
+
+@media (min-width:1024px) {
+
+  .headline {
+    &__dsc {
+      width: 80%;
+    }
+  }
+
+  footer {
+    gap: 72px;
+    .footer__img {
+      text-align: right;
+    }
+  }
+}
+
+@media (min-width:1400px) {
+
+  header {
+    padding: 24px 120px;
+  }
+
+  .headline {
+    &__title {
+      width: 70%;
+    }
+  }
+  .presenter {
+    ul {
+      flex-direction: row;
+      flex-wrap: wrap;
+        li {
+          max-width: 600px;
+        }
+    }
+  }
+  hr {
+    width: 30%;
+  }
+  .headline {
+    padding: 12rem 120px;
+    &__dsc {
+      width: 60%;
     }
   }
 }
