@@ -367,14 +367,14 @@
 
         li {
           margin-bottom: 5rem;
-    
+
           a {
             font-size: 48px;
             font-weight: 600;
             line-height: 44px;
             color: $clr-primary-white;
             transition: color 1s;
-    
+
             &:hover {
               color: $clr-primary-black;
             }
@@ -386,22 +386,21 @@
 }
 
 @media (max-width: 480px) {
-
   header {
     nav {
       ul {
         padding: 5rem 3rem;
+
         li {
           margin-bottom: 3rem;
 
-          a{
+          a {
             font-size: 36px;
           }
         }
       }
     }
   }
-  
 }
 
 @media (min-width: 992px) {
