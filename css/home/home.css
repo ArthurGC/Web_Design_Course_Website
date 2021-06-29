@@ -342,7 +342,7 @@ footer .footer__p {
     line-height: 72px;
   }
   .headline__dsc p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 42px;
   }
   .headline__date {
@@ -418,7 +418,7 @@ footer .footer__p {
     padding: 2rem 48px;
   }
   footer .footer__p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 40px;
   }
 }
