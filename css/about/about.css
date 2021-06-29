@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
-
 *,
 ::before,
 ::after {
@@ -29,27 +28,27 @@ hr {
   font-weight: normal;
   font-style: normal;
 }
-
 header {
   background: #fff;
   position: relative;
   padding: 24px;
   box-shadow: 0 1px 10px 3px #a7a5a5;
 }
-
 header nav a img {
   width: 120px;
   height: auto;
   display: none;
 }
-
 header nav ul {
+  position: relative;
   list-style: none;
+  z-index: 50;
 }
-
 header nav .hamb {
+  position: relative;
   font-size: 2rem;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .headline::before {
@@ -70,7 +69,6 @@ header nav .hamb {
   position: relative;
   z-index: 10;
 }
-
 .headline__greet {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -80,7 +78,6 @@ header nav .hamb {
   text-align: center;
   margin-bottom: 12px;
 }
-
 .headline__title {
   font-family: "COCOGOOSE", sans-serif;
   font-size: 2rem;
@@ -93,14 +90,12 @@ header nav .hamb {
   text-transform: uppercase;
   text-align: center;
 }
-
 .headline__dsc {
   margin-top: 50px;
   padding: 12px;
   border: 3px solid #d3d3d3;
   background: #fff;
 }
-
 .headline__dsc p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
@@ -113,7 +108,6 @@ header nav .hamb {
 .courses {
   padding: 48px 24px;
 }
-
 .courses__title {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -122,7 +116,6 @@ header nav .hamb {
   color: #272a31;
   text-align: center;
 }
-
 .courses ul {
   margin-top: 50px;
   list-style: none;
@@ -132,7 +125,6 @@ header nav .hamb {
   justify-content: center;
   gap: 32px;
 }
-
 .courses ul li {
   display: flex;
   flex-direction: column;
@@ -145,12 +137,10 @@ header nav .hamb {
   border-radius: 8px;
   box-shadow: 2px 2px 0 0 rgba(172, 172, 172, 0.2);
 }
-
 .courses ul li .courses__image i {
   color: #ec5242;
   font-size: 4rem;
 }
-
 .courses ul li .courses__dsc h3 {
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
@@ -160,7 +150,6 @@ header nav .hamb {
   text-align: center;
   margin-bottom: 24px;
 }
-
 .courses ul li .courses__dsc p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
@@ -173,7 +162,6 @@ header nav .hamb {
 .past-courses {
   padding: 48px 24px;
 }
-
 .past-courses__title {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -182,7 +170,6 @@ header nav .hamb {
   color: #272a31;
   text-align: center;
 }
-
 .past-courses ul {
   margin-top: 50px;
   list-style: none;
@@ -192,16 +179,13 @@ header nav .hamb {
   justify-content: center;
   gap: 24px;
 }
-
 .past-courses ul li {
   position: relative;
   transition: transform 0.8s;
 }
-
 .past-courses ul li a img {
   width: 100%;
 }
-
 .past-courses ul li .past-courses__p {
   position: absolute;
   top: 50%;
@@ -215,7 +199,6 @@ header nav .hamb {
   text-align: center;
   width: 100%;
 }
-
 .past-courses ul li .past-courses__p span {
   display: block;
   font-size: 2rem;
@@ -227,12 +210,10 @@ footer {
   text-align: center;
   background: #41434b;
 }
-
 footer .footer__img {
   width: 50%;
   margin-bottom: 12px;
 }
-
 footer .footer__p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
@@ -243,29 +224,45 @@ footer .footer__p {
 
 @media (max-width: 992px) {
   header nav ul {
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(236, 82, 66, 0.9);
+    display: flex;
+    flex-direction: column;
     position: fixed;
     top: 0;
-    left: -100%;
-    opacity: 0;
-    visibility: hidden;
+    left: 100%;
+    transition: left 0.8s, visibility 0.8s, opacity 0.4s;
+    padding: 10rem 4rem;
+  }
+  header nav ul li {
+    margin-bottom: 5rem;
+  }
+  header nav ul li a {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #fff;
+    transition: color 1s;
+  }
+  header nav ul li a:hover {
+    color: #272a31;
   }
 }
-
 @media (min-width: 480px) {
   .headline {
     padding: 5rem 24px;
   }
-
   .headline__greet {
     margin: 1rem 0;
     font-size: 1.8rem;
   }
-
   .headline__title {
     font-size: 2.5rem;
     line-height: 56px;
   }
-
   .headline__dsc p {
     font-size: 1.2rem;
     line-height: 32px;
@@ -274,25 +271,20 @@ footer .footer__p {
   .courses {
     padding: 5rem 24px;
   }
-
   .courses__title {
     font-size: 2rem;
     line-height: 40px;
   }
-
   .courses ul {
     gap: 40px;
   }
-
   .courses ul li .courses__image i {
     font-size: 6rem;
   }
-
   .courses ul li .courses__dsc h3 {
     font-size: 1.5rem;
     line-height: 32px;
   }
-
   .courses ul li .courses__dsc .courses__p {
     font-size: 1.2rem;
     line-height: 40px;
@@ -302,15 +294,12 @@ footer .footer__p {
     font-size: 2rem;
     line-height: 40px;
   }
-
   .past-courses ul {
     gap: 40px;
   }
-
   .past-courses ul li .past-courses__p {
     font-size: 2rem;
   }
-
   .past-courses ul li .past-courses__p span {
     font-size: 2.5rem;
   }
@@ -318,17 +307,14 @@ footer .footer__p {
   footer {
     padding: 2rem 24px;
   }
-
   footer .footer__p {
     font-size: 1.2rem;
   }
 }
-
 @media (min-width: 600px) {
   header {
     padding: 24px 48px;
   }
-
   header nav .hamb {
     font-size: 3rem;
   }
@@ -336,16 +322,13 @@ footer .footer__p {
   .headline {
     padding: 6rem 48px;
   }
-
   .headline__greet {
     font-size: 2rem;
   }
-
   .headline__title {
     font-size: 3rem;
     line-height: 64px;
   }
-
   .headline__dsc p {
     font-size: 1.2rem;
     line-height: 48px;
@@ -354,24 +337,19 @@ footer .footer__p {
   .courses {
     padding: 7rem 48px;
   }
-
   .courses__title {
     font-size: 2.5rem;
   }
-
   .courses ul {
     gap: 56px;
     margin-top: 70px;
   }
-
   .courses ul li .courses__image i {
     font-size: 7rem;
   }
-
   .courses ul li .courses__dsc h3 {
     font-size: 2rem;
   }
-
   .courses ul li .courses__dsc .courses__p {
     font-size: 1.2rem;
     line-height: 48px;
@@ -380,15 +358,12 @@ footer .footer__p {
   .past-courses {
     padding: 3rem 48px;
   }
-
   .past-courses__title {
     font-size: 2.5rem;
   }
-
   .past-courses ul li .past-courses__p {
     font-size: 2.5rem;
   }
-
   .past-courses ul li .past-courses__p span {
     font-size: 3rem;
   }
@@ -396,12 +371,10 @@ footer .footer__p {
   footer {
     padding: 2rem 48px;
   }
-
   footer .footer__p {
     font-size: 1.2rem;
   }
 }
-
 @media (min-width: 768px) {
   header {
     padding: 24px 72px;
@@ -410,7 +383,6 @@ footer .footer__p {
   .headline {
     padding: 7rem 72px;
   }
-
   .headline__title {
     line-height: 80px;
   }
@@ -418,28 +390,22 @@ footer .footer__p {
   .courses {
     padding: 6rem 72px;
   }
-
   .courses__title {
     font-size: 2.5rem;
   }
-
   .courses ul {
     gap: 64px;
     margin-top: 90px;
   }
-
   .courses ul li {
     gap: 48px;
   }
-
   .courses ul li .courses__image i {
     font-size: 6rem;
   }
-
   .courses ul li .courses__dsc h3 {
     font-size: 2rem;
   }
-
   .courses ul li .courses__dsc .courses__p {
     line-height: 56px;
   }
@@ -447,20 +413,16 @@ footer .footer__p {
   .past-courses {
     padding: 4rem 72px;
   }
-
   .past-courses__title {
     font-size: 2.5rem;
     line-height: 64px;
   }
-
   .past-courses ul {
     margin-top: 4rem;
   }
-
   .past-courses ul li .past-courses__p {
     font-size: 3rem;
   }
-
   .past-courses ul li .past-courses__p span {
     font-size: 3.5rem;
   }
@@ -473,16 +435,13 @@ footer .footer__p {
     justify-content: center;
     gap: 48px;
   }
-
   footer .footer__img {
     width: 150px;
   }
-
   footer .footer__p {
     line-height: 32px;
   }
 }
-
 @media (min-width: 992px) {
   header nav {
     display: flex;
@@ -490,11 +449,9 @@ footer .footer__p {
     align-items: center;
     justify-content: space-between;
   }
-
   header nav a img {
     display: block;
   }
-
   header nav ul {
     display: flex;
     flex-direction: row;
@@ -502,7 +459,6 @@ footer .footer__p {
     justify-content: flex-end;
     gap: 48px;
   }
-
   header nav ul li a {
     font-family: "Lato", sans-serif;
     font-size: 1.2rem;
@@ -511,18 +467,15 @@ footer .footer__p {
     color: #41434b;
     transition: color 0.8s, font-size 0.8s;
   }
-
   header nav .hamb {
     display: none;
   }
 }
-
 @media (min-width: 1024px) {
   .headline__title {
     width: 90%;
     margin-inline: auto;
   }
-
   .headline__dsc {
     width: 80%;
     margin-inline: auto;
@@ -539,22 +492,18 @@ footer .footer__p {
     padding: 6rem 72px;
     border-top: 2px solid #d3d3d3;
   }
-
   .past-courses ul {
     flex-direction: row;
     max-width: 800px;
     margin-inline: auto;
   }
-
   .past-courses ul li .past-courses__p {
     font-size: 2rem;
   }
-
   .past-courses ul li .past-courses__p span {
     font-size: 2.5rem;
   }
 }
-
 @media (min-width: 1400px) {
   header {
     padding: 24px 120px;
@@ -563,11 +512,9 @@ footer .footer__p {
   .headline {
     padding: 7rem 120px;
   }
-
   .headline__title {
     width: 70%;
   }
-
   .headline__dsc {
     width: 70%;
     margin-inline: auto;
@@ -581,39 +528,36 @@ footer .footer__p {
   .past-courses {
     padding: 6rem 120px;
   }
-
   .past-courses ul li .past-courses__p {
     font-size: 2.5rem;
     line-height: 48px;
   }
-
   .past-courses ul li .past-courses__p span {
     font-size: 3rem;
   }
 }
-
-.join {
-  color: #ec5242;
+.active {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+  transition: left 0.8s, visibility 0.8s, opacity 0.4s;
 }
 
-.join-container {
-  border: 4px solid #ec5242;
-  padding: 8px;
-}
+@media (min-width: 992px) {
+  .join {
+    color: #ec5242;
+  }
 
-header nav ul li a:hover {
-  color: #ec5242;
-  font-size: 1.3rem;
-}
+  .join-container {
+    border: 4px solid #ec5242;
+    padding: 8px;
+  }
 
-.about {
-  color: #ec5242;
+  header nav ul li a:hover {
+    color: #ec5242;
+    font-size: 1.3rem;
+  }
 }
-
-.about:hover {
-  color: #41434b;
-}
-
 .program ul li:hover {
   border: 4px solid #fff;
 }
@@ -621,3 +565,5 @@ header nav ul li a:hover {
 .past-courses ul li:hover {
   transform: scale(1.1);
 }
+
+/*# sourceMappingURL=about.css.map */

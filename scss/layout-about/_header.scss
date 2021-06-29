@@ -14,12 +14,16 @@ header {
     }
 
     ul {
+      position: relative;
       list-style: none;
+      z-index: 50;
     }
 
     .hamb {
+      position: relative;
       font-size: 2rem;
       cursor: pointer;
+      z-index: 1000;
     }
   }
 }
