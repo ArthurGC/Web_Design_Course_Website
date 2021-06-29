@@ -37,6 +37,25 @@
   }
 }
 
+@media (max-width: 480px) {
+
+  header {
+    nav {
+      ul {
+        padding: 5rem 3rem;
+        li {
+          margin-bottom: 3rem;
+
+          a{
+            font-size: 36px;
+          }
+        }
+      }
+    }
+  }
+  
+}
+
 @media (min-width: 480px) {
   .headline {
     padding: 5rem 24px;

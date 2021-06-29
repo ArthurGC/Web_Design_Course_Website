@@ -385,6 +385,25 @@
   }
 }
 
+@media (max-width: 480px) {
+
+  header {
+    nav {
+      ul {
+        padding: 5rem 3rem;
+        li {
+          margin-bottom: 3rem;
+
+          a{
+            font-size: 36px;
+          }
+        }
+      }
+    }
+  }
+  
+}
+
 @media (min-width: 992px) {
   header {
     nav {
