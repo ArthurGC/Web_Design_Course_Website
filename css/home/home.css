@@ -487,11 +487,11 @@ footer .footer__p {
     max-width: 450px;
   }
   .presenter ul li .presenter__dsc .dsc-1 {
-    margin: 24px 0;
-    line-height: 40px;
+    margin: 6px 0;
+    line-height: 32px;
   }
   .presenter ul li .presenter__dsc .dsc-2 {
-    line-height: 40px;
+    line-height: 32px;
   }
 
   .offered {
