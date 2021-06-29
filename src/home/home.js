@@ -14,3 +14,13 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       });
     });
   });
+
+
+  import {createSpeakerStructureHTML, createSpeakerCard} from './speakers.js';
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    createSpeakerStructureHTML();
+
+    createSpeakerCard();
+  })
