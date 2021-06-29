@@ -370,10 +370,11 @@
 
           a {
             font-size: 48px;
-            font-weight: 600;
+            font-weight: 800;
             line-height: 44px;
             color: $clr-primary-white;
             transition: color 1s;
+            font-family: 'Lato';
 
             &:hover {
               color: $clr-primary-black;
