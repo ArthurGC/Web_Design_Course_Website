@@ -1,5 +1,13 @@
 @use '../utilities/index' as *;
 
+.join {
+  color: $clr-primary-red;
+}
+
+.join-container {
+  border: 4px solid $clr-primary-red;
+}
+
 header {
   nav {
     ul {
