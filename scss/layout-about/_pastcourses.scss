@@ -4,7 +4,7 @@
   padding: 48px 24px;
 
   &__title {
-    @include lato-text(1.5rem, 700, 24px);
+    @include lato-text(1.5rem, 500, 24px);
 
     color: $clr-primary-black;
     text-align: center;
