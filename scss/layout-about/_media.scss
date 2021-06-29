@@ -202,7 +202,6 @@
     &__title {
       line-height: 80px;
     }
-
   }
 
   .courses {
@@ -218,6 +217,7 @@
 
       li {
         gap: 48px;
+
         .courses__image {
           i {
             font-size: 6rem;
@@ -247,6 +247,7 @@
 
     ul {
       margin-top: 4rem;
+
       li {
         .past-courses__p {
           font-size: 3rem;
@@ -261,7 +262,9 @@
 
   footer {
     padding: 3rem 72px;
+
     @include flex(row,center,center);
+
     gap: 48px;
 
     .footer__img {
@@ -305,61 +308,63 @@
 }
 
 @media (min-width: 1024px) {
-    .headline {
+  .headline {
+    &__title {
+      width: 90%;
+      margin-inline: auto;
+    }
 
-      &__title {
-        width: 90%;
-        margin-inline: auto;
-      }
-      &__dsc {
+    &__dsc {
+      width: 80%;
+      margin-inline: auto;
+    }
+  }
+
+  .courses {
+    ul {
+      li {
+        gap: 72px;
         width: 80%;
         margin-inline: auto;
+        padding: 24px;
       }
     }
+  }
 
-    .courses {
-      ul {
-        li {
-          gap: 72px;
-          width: 80%;
-          margin-inline: auto;
-          padding: 24px;
-        }
-      }
-  
-    }
+  .past-courses {
+    padding: 6rem 72px;
+    border-top: 2px solid #d3d3d3;
 
-    .past-courses {
-      padding: 6rem 72px;
-      border-top: 2px solid #d3d3d3;
-      ul {
-        flex-direction: row;
-        max-width: 800px;
-        margin-inline: auto;
-        li {
-          .past-courses__p {
-            font-size: 2rem;
-  
-            span {
-              font-size: 2.5rem;
-            }
+    ul {
+      flex-direction: row;
+      max-width: 800px;
+      margin-inline: auto;
+
+      li {
+        .past-courses__p {
+          font-size: 2rem;
+
+          span {
+            font-size: 2.5rem;
           }
         }
       }
-
     }
+  }
 }
 
 @media (min-width: 1400px) {
   header {
     padding: 24px 120px;
   }
+
   .headline {
     padding: 7rem 120px;
 
     &__title {
       width: 70%;
     }
+
     &__dsc {
       width: 70%;
       margin-inline: auto;
@@ -373,11 +378,11 @@
         margin-inline: auto;
       }
     }
-
   }
 
   .past-courses {
     padding: 6rem 120px;
+
     ul {
       li {
         .past-courses__p {
@@ -390,6 +395,5 @@
         }
       }
     }
-
   }
 }

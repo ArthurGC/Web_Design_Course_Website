@@ -20,6 +20,7 @@
 
     li {
       @include flex(row, flex-start, center);
+
       gap: 24px;
       width: 100%;
       padding: 12px;
@@ -39,7 +40,7 @@
         }
 
         .dsc-1 {
-          @include lato-text(.8rem, 500, 24px);
+          @include lato-text(0.8rem, 500, 24px);
 
           color: $clr-primary-red;
           margin: 5px 0;
@@ -47,7 +48,7 @@
         }
 
         .dsc-2 {
-          @include lato-text(.8rem, 500, 24px);
+          @include lato-text(0.8rem, 500, 24px);
 
           color: $clr-primary-black;
         }

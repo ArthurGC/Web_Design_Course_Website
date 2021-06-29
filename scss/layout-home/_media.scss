@@ -256,7 +256,6 @@
   .program {
     padding: 8rem 72px;
 
-
     ul {
       margin-top: 64px;
       gap: 5px;
@@ -268,6 +267,7 @@
         width: 244px;
         height: 300px;
         padding: 24px;
+
         img {
           width: 70px;
           height: 70px;
@@ -286,7 +286,6 @@
   .presenter {
     padding: 8rem 72px;
 
-
     ul {
       margin: 64px 0;
 
@@ -302,6 +301,7 @@
 
         .presenter__dsc {
           max-width: 450px;
+
           .dsc-1 {
             margin: 24px 0;
             line-height: 40px;
@@ -320,7 +320,9 @@
 
     &__images {
       margin-top: 56px;
+
       @include flex(row,center, center);
+
       flex-wrap: wrap;
 
       .offered__img {
@@ -331,7 +333,9 @@
 
   footer {
     padding: 3rem 72px;
+
     @include flex(row,center,center);
+
     gap: 48px;
 
     .footer__img {
@@ -390,8 +394,7 @@
   }
 }
 
-@media (min-width:1024px) {
-
+@media (min-width: 1024px) {
   .headline {
     &__dsc {
       width: 80%;
@@ -400,39 +403,42 @@
 
   footer {
     gap: 72px;
+
     .footer__img {
       text-align: right;
     }
   }
 }
 
-@media (min-width:1400px) {
-
+@media (min-width: 1400px) {
   header {
     padding: 24px 120px;
   }
 
   .headline {
+    padding: 12rem 120px;
+
     &__title {
       width: 70%;
     }
+
+    &__dsc {
+      width: 60%;
+    }
   }
+
   .presenter {
     ul {
       flex-direction: row;
       flex-wrap: wrap;
-        li {
-          max-width: 600px;
-        }
+
+      li {
+        max-width: 600px;
+      }
     }
   }
+
   hr {
     width: 30%;
-  }
-  .headline {
-    padding: 12rem 120px;
-    &__dsc {
-      width: 60%;
-    }
   }
 }
