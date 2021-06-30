@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone Project
+# Capstone Project - Web Design Course
 
-In this project, I set up my first Capstone Project about a Web Design Course.  My goal here is make the mobile version of my home and about pages (28-06-2021).
+In this project, I set up my first Capstone Project about a Web Design Course.  My goal here is make 2 pages (home and about) of my web development course for mobile and desktop version.
 
 - ![screenshot](/public/preview-home-1.png)
 - ![screenshot](/public/preview-home-2.png)
@@ -11,7 +11,7 @@ In this project, I set up my first Capstone Project about a Web Design Course.  
 
 ## :red_circle: Project Documentation Video
 
--[Project Video](https://www.loom.com/share/60408e5dd515448bb22e8a5b1f82a0b3)
+[Project Video](https://www.loom.com/share/60408e5dd515448bb22e8a5b1f82a0b3)
 ## :red_circle: Live Demo
 
 [Live Preview Link](https://arthurgc.github.io/capstone-project-module-1/)
