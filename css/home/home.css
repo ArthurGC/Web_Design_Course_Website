@@ -518,7 +518,7 @@ footer .footer__p {
   }
 
   .program {
-    padding: 8rem 64px;
+    padding: 6rem 48px;
   }
 
   .program ul {
@@ -530,26 +530,24 @@ footer .footer__p {
 
   .program ul li {
     flex-direction: column;
-    width: 172px;
-    height: 240px;
+    width: 127px;
+    height: 193px;
     padding: 12px;
   }
 
   .program ul li img {
-    width: 40px;
-    height: 40px;
-    flex-basis: 100%;
+    width: 30px;
+    height: 30px;
   }
 
   .program ul li h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .program ul li p {
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-align: center;
-    line-height: 32px;
-    flex-basis: 100%;
+    line-height: 24px;
   }
 
   .presenter {
@@ -702,6 +700,31 @@ footer .footer__p {
 @media (min-width: 1024px) {
   .headline__dsc {
     width: 80%;
+  }
+
+  .program {
+    padding: 8rem 64px;
+  }
+
+  .program ul li {
+    width: 172px;
+    height: 240px;
+    padding: 12px;
+  }
+
+  .program ul li img {
+    width: 40px;
+    height: 40px;
+    flex-basis: 100%;
+  }
+
+  .program ul li h3 {
+    font-size: 1.3rem;
+  }
+
+  .program ul li p {
+    font-size: 1rem;
+    flex-basis: 100%;
   }
 
   footer {
