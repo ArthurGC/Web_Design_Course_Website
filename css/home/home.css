@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
-
 *,
 ::before,
 ::after {
@@ -29,7 +28,6 @@ hr {
   font-weight: normal;
   font-style: normal;
 }
-
 header {
   background: #fff;
   padding: 24px;
@@ -38,19 +36,16 @@ header {
   top: 0;
   z-index: 50;
 }
-
 header nav a img {
   width: 120px;
   height: auto;
   display: none;
 }
-
 header nav ul {
   position: relative;
   list-style: none;
   z-index: 100;
 }
-
 header nav .hamb {
   position: relative;
   font-size: 2rem;
@@ -76,7 +71,6 @@ header nav .hamb {
   position: relative;
   z-index: 10;
 }
-
 .headline__greet {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -84,7 +78,6 @@ header nav .hamb {
   line-height: 36px;
   color: #ec5242;
 }
-
 .headline__title {
   font-family: "COCOGOOSE", sans-serif;
   font-size: 2rem;
@@ -96,14 +89,12 @@ header nav .hamb {
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
 }
-
 .headline__dsc {
   margin: 12px 0;
   padding: 12px;
   border: 3px solid #fff;
   background: #f9f9f9;
 }
-
 .headline__dsc p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
@@ -111,7 +102,6 @@ header nav .hamb {
   line-height: 24px;
   color: #272a31;
 }
-
 .headline__date {
   font-family: "COCOGOOSE", sans-serif;
   font-size: 1.15rem;
@@ -125,7 +115,6 @@ header nav .hamb {
   padding: 54px 24px;
   background: #272a31;
 }
-
 .program__title {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -134,7 +123,6 @@ header nav .hamb {
   text-align: center;
   color: #fff;
 }
-
 .program ul {
   margin: 24px 0;
   display: flex;
@@ -143,7 +131,6 @@ header nav .hamb {
   justify-content: center;
   gap: 12px;
 }
-
 .program ul li {
   display: flex;
   flex-direction: row;
@@ -155,13 +142,11 @@ header nav .hamb {
   padding: 12px;
   transition: border 0.8s;
 }
-
 .program ul li img {
   width: 40px;
   height: 40px;
   flex-basis: 25%;
 }
-
 .program ul li h3 {
   color: #ec5242;
   font-family: "Lato", sans-serif;
@@ -170,7 +155,6 @@ header nav .hamb {
   line-height: 24px;
   flex-basis: 25%;
 }
-
 .program ul li p {
   color: #fff;
   font-family: "Lato", sans-serif;
@@ -183,7 +167,6 @@ header nav .hamb {
 .presenter {
   padding: 48px 24px;
 }
-
 .presenter__title {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -192,7 +175,6 @@ header nav .hamb {
   text-align: center;
   color: #272a31;
 }
-
 .presenter ul {
   margin: 24px 0;
   display: flex;
@@ -202,7 +184,6 @@ header nav .hamb {
   gap: 12px;
   list-style: none;
 }
-
 .presenter ul li {
   display: flex;
   flex-direction: row;
@@ -212,12 +193,10 @@ header nav .hamb {
   width: 100%;
   padding: 12px;
 }
-
 .presenter ul li .presenter__image img {
   width: 100px;
   height: 100px;
 }
-
 .presenter ul li .presenter__dsc h3 {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
@@ -225,7 +204,6 @@ header nav .hamb {
   line-height: 24px;
   color: #272a31;
 }
-
 .presenter ul li .presenter__dsc .dsc-1 {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -235,7 +213,6 @@ header nav .hamb {
   margin: 5px 0;
   font-style: italic;
 }
-
 .presenter ul li .presenter__dsc .dsc-2 {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -248,7 +225,6 @@ header nav .hamb {
   padding: 56px 24px;
   background: #41434b;
 }
-
 .offered__title {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -257,7 +233,6 @@ header nav .hamb {
   color: #fff;
   text-align: center;
 }
-
 .offered__images {
   margin: 24px 0;
   display: flex;
@@ -271,12 +246,10 @@ footer {
   padding: 24px;
   text-align: center;
 }
-
 footer .footer__img {
   width: 50%;
   margin-bottom: 12px;
 }
-
 footer .footer__p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
@@ -289,22 +262,18 @@ footer .footer__p {
   .headline {
     padding: 10rem 24px;
   }
-
   .headline__greet {
     margin: 1rem 0;
     font-size: 1.8rem;
   }
-
   .headline__title {
     font-size: 2.5rem;
     line-height: 56px;
   }
-
   .headline__dsc p {
     font-size: 1.5rem;
     line-height: 32px;
   }
-
   .headline__date {
     font-size: 2rem;
     margin-top: 48px;
@@ -313,20 +282,16 @@ footer .footer__p {
   .program {
     padding: 5rem 24px;
   }
-
   .program__title {
     font-size: 2rem;
   }
-
   .program ul li img {
     width: 50px;
     height: 50px;
   }
-
   .program ul li h3 {
     font-size: 1.5rem;
   }
-
   .program ul li p {
     font-size: 1.2rem;
   }
@@ -334,20 +299,16 @@ footer .footer__p {
   .presenter {
     padding: 5rem 24px;
   }
-
   .presenter__title {
     font-size: 2rem;
   }
-
   .presenter ul {
     margin: 48px 0;
     gap: 24px;
   }
-
   .presenter ul li {
     padding: 24px;
   }
-
   .presenter ul li .presenter__image img {
     width: 120px;
     height: 120px;
@@ -356,11 +317,9 @@ footer .footer__p {
   .offered {
     padding: 5rem 24px;
   }
-
   .offered__title {
     font-size: 2rem;
   }
-
   .offered__images {
     margin-top: 48px;
     gap: 36px;
@@ -369,17 +328,14 @@ footer .footer__p {
   footer {
     padding: 2rem 24px;
   }
-
   footer .footer__p {
     font-size: 1rem;
   }
 }
-
 @media (min-width: 600px) {
   header {
     padding: 24px 48px;
   }
-
   header nav .hamb {
     font-size: 3rem;
   }
@@ -387,22 +343,17 @@ footer .footer__p {
   .headline {
     padding: 10rem 48px;
   }
-
   .headline__greet {
     margin: 1rem 0;
     font-size: 2rem;
   }
-
   .headline__title {
-    font-size: 3rem;
     line-height: 72px;
   }
-
   .headline__dsc p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 42px;
   }
-
   .headline__date {
     font-size: 2.5rem;
     margin-top: 48px;
@@ -411,24 +362,19 @@ footer .footer__p {
   .program {
     padding: 6rem 48px;
   }
-
   .program__title {
     font-size: 2.3rem;
   }
-
   .program ul {
     gap: 32px;
   }
-
   .program ul li img {
     width: 60px;
     height: 60px;
   }
-
   .program ul li h3 {
     font-size: 1.6rem;
   }
-
   .program ul li p {
     font-size: 1.3rem;
   }
@@ -436,35 +382,28 @@ footer .footer__p {
   .presenter {
     padding: 6rem 48px;
   }
-
   .presenter__title {
     font-size: 2.3rem;
   }
-
   .presenter ul {
     margin: 56px 0;
     gap: 32px;
   }
-
   .presenter ul li {
     padding: 32px;
   }
-
   .presenter ul li .presenter__image img {
     width: 150px;
     height: 150px;
   }
-
   .presenter ul li .presenter__dsc h3 {
     font-size: 1.5rem;
   }
-
   .presenter ul li .presenter__dsc .dsc-1 {
     font-size: 1.2rem;
     margin: 12px 0;
     line-height: 32px;
   }
-
   .presenter ul li .presenter__dsc .dsc-2 {
     font-size: 1.2rem;
     line-height: 32px;
@@ -473,16 +412,13 @@ footer .footer__p {
   .offered {
     padding: 6rem 48px;
   }
-
   .offered__title {
     font-size: 2.3rem;
   }
-
   .offered__images {
     margin-top: 48px;
     gap: 52px;
   }
-
   .offered__images .offered__img {
     width: 30%;
   }
@@ -490,12 +426,10 @@ footer .footer__p {
   footer {
     padding: 2rem 48px;
   }
-
   footer .footer__p {
     line-height: 40px;
   }
 }
-
 @media (min-width: 768px) {
   header {
     padding: 24px 72px;
@@ -504,15 +438,12 @@ footer .footer__p {
   .headline {
     padding: 10rem 72px;
   }
-
   .headline__title {
     line-height: 80px;
   }
-
   .headline__dsc p {
     line-height: 48px;
   }
-
   .headline__date {
     margin-top: 56px;
   }
@@ -520,32 +451,22 @@ footer .footer__p {
   .program {
     padding: 6rem 48px;
   }
-
   .program ul {
     margin-top: 64px;
-    gap: 5px;
-    flex-direction: row;
-    flex-wrap: wrap;
+    gap: 24px;
   }
-
   .program ul li {
-    flex-direction: column;
-    width: 127px;
-    height: 193px;
     padding: 12px;
   }
-
   .program ul li img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
   }
-
   .program ul li h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
-
   .program ul li p {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     text-align: center;
     line-height: 24px;
   }
@@ -553,29 +474,23 @@ footer .footer__p {
   .presenter {
     padding: 8rem 72px;
   }
-
   .presenter ul {
     margin: 64px 0;
   }
-
   .presenter ul li {
     padding: 32px;
   }
-
   .presenter ul li .presenter__image img {
     width: 180px;
     height: 180px;
   }
-
   .presenter ul li .presenter__dsc {
     max-width: 450px;
   }
-
   .presenter ul li .presenter__dsc .dsc-1 {
     margin: 6px 0;
     line-height: 32px;
   }
-
   .presenter ul li .presenter__dsc .dsc-2 {
     line-height: 32px;
   }
@@ -583,7 +498,6 @@ footer .footer__p {
   .offered {
     padding: 6rem 72px;
   }
-
   .offered__images {
     margin-top: 80px;
     display: flex;
@@ -592,7 +506,6 @@ footer .footer__p {
     justify-content: center;
     flex-wrap: wrap;
   }
-
   .offered__images .offered__img {
     width: 140px;
   }
@@ -605,16 +518,13 @@ footer .footer__p {
     justify-content: center;
     gap: 48px;
   }
-
   footer .footer__img {
     width: 150px;
   }
-
   footer .footer__p {
     line-height: 32px;
   }
 }
-
 @media (max-width: 992px) {
   header nav ul {
     visibility: hidden;
@@ -630,11 +540,9 @@ footer .footer__p {
     transition: left 0.8s, visibility 0.8s, opacity 0.4s;
     padding: 10rem 4rem;
   }
-
   header nav ul li {
     margin-bottom: 5rem;
   }
-
   header nav ul li a {
     font-size: 48px;
     font-weight: 800;
@@ -643,26 +551,21 @@ footer .footer__p {
     transition: color 1s;
     font-family: "Lato", sans-serif;
   }
-
   header nav ul li a:hover {
     color: #272a31;
   }
 }
-
 @media (max-width: 480px) {
   header nav ul {
     padding: 5rem 3rem;
   }
-
   header nav ul li {
     margin-bottom: 3rem;
   }
-
   header nav ul li a {
     font-size: 36px;
   }
 }
-
 @media (min-width: 992px) {
   header nav {
     display: flex;
@@ -670,11 +573,9 @@ footer .footer__p {
     align-items: center;
     justify-content: space-between;
   }
-
   header nav a img {
     display: block;
   }
-
   header nav ul {
     display: flex;
     flex-direction: row;
@@ -682,7 +583,6 @@ footer .footer__p {
     justify-content: flex-end;
     gap: 48px;
   }
-
   header nav ul li a {
     font-family: "Lato", sans-serif;
     font-size: 1.2rem;
@@ -691,37 +591,43 @@ footer .footer__p {
     color: #41434b;
     transition: color 0.8s, font-size 0.8s;
   }
-
   header nav .hamb {
     display: none;
   }
 }
-
 @media (min-width: 1024px) {
+  .headline__title {
+    font-size: 3rem;
+  }
   .headline__dsc {
     width: 80%;
+  }
+  .headline__dsc p {
+    font-size: 1.5rem;
   }
 
   .program {
     padding: 8rem 64px;
   }
-
+  .program ul {
+    gap: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .program ul li {
+    flex-direction: column;
     width: 172px;
     height: 240px;
     padding: 12px;
   }
-
   .program ul li img {
     width: 40px;
     height: 40px;
     flex-basis: 100%;
   }
-
   .program ul li h3 {
     font-size: 1.3rem;
   }
-
   .program ul li p {
     font-size: 1rem;
     flex-basis: 100%;
@@ -730,12 +636,10 @@ footer .footer__p {
   footer {
     gap: 72px;
   }
-
   footer .footer__img {
     text-align: right;
   }
 }
-
 @media (min-width: 1400px) {
   header {
     padding: 24px 120px;
@@ -744,11 +648,9 @@ footer .footer__p {
   .headline {
     padding: 12rem 120px;
   }
-
   .headline__title {
     width: 70%;
   }
-
   .headline__dsc {
     width: 60%;
   }
@@ -758,16 +660,13 @@ footer .footer__p {
     height: 300px;
     padding: 24px;
   }
-
   .program ul li img {
     width: 60px;
     height: 60px;
   }
-
   .program ul li h3 {
     font-size: 1.5rem;
   }
-
   .program ul li p {
     font-size: 1.2rem;
     width: 90%;
@@ -777,7 +676,6 @@ footer .footer__p {
     flex-direction: row;
     flex-wrap: wrap;
   }
-
   .presenter ul li {
     max-width: 600px;
   }
@@ -786,7 +684,6 @@ footer .footer__p {
     width: 30%;
   }
 }
-
 .active {
   visibility: visible;
   opacity: 1;
@@ -809,7 +706,6 @@ footer .footer__p {
     font-size: 1.3rem;
   }
 }
-
 .program ul li:hover {
   border: 4px solid #fff;
 }
@@ -817,3 +713,5 @@ footer .footer__p {
 .past-courses ul li:hover {
   transform: scale(1.1);
 }
+
+/*# sourceMappingURL=home.css.map */

@@ -118,13 +118,12 @@
     }
 
     &__title {
-      font-size: 3rem;
       line-height: 72px;
     }
 
     &__dsc {
       p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 42px;
       }
     }
@@ -257,27 +256,22 @@
 
     ul {
       margin-top: 64px;
-      gap: 5px;
-      flex-direction: row;
-      flex-wrap: wrap;
+      gap: 24px;
 
       li {
-        flex-direction: column;
-        width: 127px;
-        height: 193px;
         padding: 12px;
 
         img {
-          width: 30px;
-          height: 30px;
+          width: 50px;
+          height: 50px;
         }
 
         h3 {
-          font-size: 1rem;
+          font-size: 1.5rem;
         }
 
         p {
-          font-size: 0.7rem;
+          font-size: 1.2rem;
           text-align: center;
           line-height: 24px;
         }
@@ -439,8 +433,16 @@
 
 @media (min-width: 1024px) {
   .headline {
+
+    &__title {
+      font-size: 3rem;
+    }
+
     &__dsc {
       width: 80%;
+      p {
+        font-size: 1.5rem;
+      }
     }
   }
 
@@ -448,10 +450,15 @@
     padding: 8rem 64px;
 
     ul {
+      gap: 5px;
+      flex-direction: row;
+        flex-wrap: wrap;
       li {
+        flex-direction: column;
         width: 172px;
         height: 240px;
         padding: 12px;
+        
 
         img {
           width: 40px;
