@@ -253,7 +253,7 @@
   }
 
   .program {
-    padding: 8rem 72px;
+    padding: 8rem 64px;
 
     ul {
       margin-top: 64px;
@@ -263,7 +263,7 @@
 
       li {
         flex-direction: column;
-        width: 165px;
+        width: 172px;
         height: 240px;
         padding: 12px;
 
@@ -475,7 +475,7 @@
   .program {
     ul {
       li {
-        width: 240px;
+        width: 246px;
         height: 300px;
         padding: 24px;
 
@@ -490,10 +490,12 @@
 
         p {
           font-size: 1.2rem;
+          width: 90%;
         }
       }
     }
   }
+
   .presenter {
     ul {
       flex-direction: row;
