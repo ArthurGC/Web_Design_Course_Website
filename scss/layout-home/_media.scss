@@ -433,13 +433,13 @@
 
 @media (min-width: 1024px) {
   .headline {
-
     &__title {
       font-size: 3rem;
     }
 
     &__dsc {
       width: 80%;
+
       p {
         font-size: 1.5rem;
       }
@@ -452,13 +452,14 @@
     ul {
       gap: 5px;
       flex-direction: row;
-        flex-wrap: wrap;
+      flex-wrap: wrap;
+
       li {
         flex-direction: column;
         width: 172px;
         height: 240px;
         padding: 12px;
-        
+
 
         img {
           width: 40px;
