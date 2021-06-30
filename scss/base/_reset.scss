@@ -1,0 +1,22 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+hr {
+  margin-top: 24px;
+  border: 1px solid #ec5242;
+  width: 50%;
+  margin-inline: auto;
+}
+
+.link {
+  text-decoration: none;
+}

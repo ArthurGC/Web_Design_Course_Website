@@ -1,0 +1,17 @@
+@use '../utilities/index' as *;
+
+footer {
+  padding: 24px;
+  text-align: center;
+
+  .footer__img {
+    width: 50%;
+    margin-bottom: 12px;
+  }
+
+  .footer__p {
+    @include lato-text(1rem, 500, 24px);
+
+    color: $clr-primary-black;
+  }
+}

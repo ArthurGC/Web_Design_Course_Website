@@ -1,0 +1,31 @@
+@use '../utilities' as *;
+
+header {
+  background: $clr-primary-white;
+  padding: 24px;
+  box-shadow: 0 1px 10px 3px #a7a5a5;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  nav {
+    a img {
+      width: 120px;
+      height: auto;
+      display: none;
+    }
+
+    ul {
+      position: relative;
+      list-style: none;
+      z-index: 100;
+    }
+
+    .hamb {
+      position: relative;
+      font-size: 2rem;
+      cursor: pointer;
+      z-index: 1000;
+    }
+  }
+}
