@@ -420,9 +420,6 @@ footer .footer__p {
   .courses ul li .courses__dsc h3 {
     font-size: 2rem;
   }
-  .courses ul li .courses__dsc .courses__p {
-    line-height: 56px;
-  }
 
   .past-courses {
     padding: 4rem 72px;
@@ -535,8 +532,16 @@ footer .footer__p {
   }
 
   .courses ul li {
-    width: 50%;
+    padding: 48px;
+    width: 70%;
     margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .courses ul li .courses__image i {
+    font-size: 8rem;
   }
 
   .past-courses {

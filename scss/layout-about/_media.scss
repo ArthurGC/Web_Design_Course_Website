@@ -271,9 +271,6 @@
             font-size: 2rem;
           }
 
-          .courses__p {
-            line-height: 56px;
-          }
         }
       }
     }
@@ -417,8 +414,16 @@
   .courses {
     ul {
       li {
-        width: 50%;
+        padding: 48px;
+        width: 70%;
         margin-inline: auto;
+        @include flex(row,center,center);
+
+        .courses__image {
+          i {
+            font-size: 8rem;
+          }
+        }
       }
     }
   }
