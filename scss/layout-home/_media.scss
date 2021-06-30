@@ -93,7 +93,7 @@
     padding: 2rem 24px;
 
     .footer__p {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 }
@@ -139,7 +139,7 @@
     padding: 6rem 48px;
 
     &__title {
-      font-size: 2.5rem;
+      font-size: 2.3rem;
     }
 
     ul {
@@ -166,7 +166,7 @@
     padding: 6rem 48px;
 
     &__title {
-      font-size: 2.5rem;
+      font-size: 2.3rem;
     }
 
     ul {
@@ -207,7 +207,7 @@
     padding: 6rem 48px;
 
     &__title {
-      font-size: 2.5rem;
+      font-size: 2.3rem;
     }
 
     &__images {
@@ -215,7 +215,7 @@
       gap: 52px;
 
       .offered__img {
-        width: 40%;
+        width: 30%;
       }
     }
   }
@@ -224,7 +224,6 @@
     padding: 2rem 48px;
 
     .footer__p {
-      font-size: 1.5rem;
       line-height: 40px;
     }
   }
@@ -264,17 +263,22 @@
 
       li {
         flex-direction: column;
-        width: 244px;
-        height: 300px;
-        padding: 24px;
+        width: 165px;
+        height: 240px;
+        padding: 12px;
 
         img {
-          width: 70px;
-          height: 70px;
+          width: 40px;
+          height: 40px;
           flex-basis: 100%;
         }
 
+        h3 {
+          font-size: 1.3rem;
+        }
+
         p {
+          font-size: 1rem;
           text-align: center;
           line-height: 32px;
           flex-basis: 100%;
@@ -316,23 +320,23 @@
   }
 
   .offered {
-    padding: 7rem 72px;
+    padding: 6rem 72px;
 
     &__images {
-      margin-top: 56px;
+      margin-top: 80px;
 
       @include flex(row,center, center);
 
       flex-wrap: wrap;
 
       .offered__img {
-        width: 200px;
+        width: 140px;
       }
     }
   }
 
   footer {
-    padding: 3rem 72px;
+    padding: 2.5rem 72px;
 
     @include flex(row,center,center);
 
@@ -468,6 +472,28 @@
     }
   }
 
+  .program {
+    ul {
+      li {
+        width: 240px;
+        height: 300px;
+        padding: 24px;
+
+        img {
+          width: 60px;
+          height: 60px;
+        }
+
+        h3 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
   .presenter {
     ul {
       flex-direction: row;
