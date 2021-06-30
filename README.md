@@ -8,6 +8,10 @@ In this project, I set up my first Capstone Project about a Web Design Course.  
 - ![screenshot](/public/preview-home-2.png)
 - ![screenshot](/public/preview-about-1.png)
 - ![screenshot](/public/preview-about-2.png)
+
+## :red_circle: Project Documentation Video
+
+-[Project Video](https://www.loom.com/share/60408e5dd515448bb22e8a5b1f82a0b3)
 ## :red_circle: Live Demo
 
 [Live Preview Link](https://arthurgc.github.io/capstone-project-module-1/)

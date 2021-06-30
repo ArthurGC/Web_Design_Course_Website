@@ -34,7 +34,7 @@ export const presenters = [
     profession: 'Front-End Developer from USA',
     description: 'Professional with 6 years of experience in Web Design.',
     img: 'public/presenter-6-mentatdgt.png',
-  }
+  },
 ];
 
 const referencePosition = document.querySelector('.program');
