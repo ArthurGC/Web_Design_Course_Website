@@ -14,7 +14,7 @@ In this project, I set up my first Capstone Project about a Web Design Course.  
 [Project Video](https://www.loom.com/share/60408e5dd515448bb22e8a5b1f82a0b3)
 ## :red_circle: Live Demo
 
-[Live Preview Link](https://arthurgc.github.io/capstone-project-module-1/)
+[Live Preview Link](https://arthurgc.github.io/Web_Design_Course_Website/)
 
 ## :hammer: Built With
 
@@ -22,7 +22,7 @@ In this project, I set up my first Capstone Project about a Web Design Course.  
 
 To get a local copy up and running follow these simple steps:
 
-1. Go to the [repository page](https://github.com/ArthurGC/capstone-project-module-1/tree/add-mobile-vrs-tools).
+1. Go to the [repository page](https://github.com/ArthurGC/Web_Design_Course_Website).
 2. Press the "Code" button and copy the link.
 3. Clone it using git command `git clone <link>`.
 
@@ -52,7 +52,7 @@ To get a local copy up and running follow these simple steps:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ArthurGC/capstone-project-module-1/issues).
+Feel free to check the [issues page](https://github.com/ArthurGC/Web_Design_Course_Website/issues).
 
 ## :grey_exclamation: Acknowledgments
 
